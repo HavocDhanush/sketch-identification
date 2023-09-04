@@ -1,5 +1,7 @@
 h1 {
     font-family: 'Dancing Script', cursive;
+    color:white;
+    background-color: black;
 }
 
 p {
@@ -9,4 +11,29 @@ font-family: 'Orbitron', sans-serif;
 
 body {
     background-color: lightsteelblue;
+}
+
+#show_sketch {
+    float:right;
+    margin-right: 40px;
+    margin-top: 4px;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 3s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
 }
